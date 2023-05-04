@@ -1,2 +1,2 @@
 # colaborprozess_janasanu
-crazy ass bezier curve game lez go
+crazy bezier curve game lez go
