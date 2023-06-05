@@ -1,14 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <style>
+    @font-face {
+      font-family: 'ABCFavorit';
+      src: url('ABCFavorit-Regular-Trial.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-family: 'PPMondwest-Regular';
+      src: url('PPMondwest-Regular.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'ABCDiatype-Regular';
+      src: url('ABCDiatype-Regular-Trial.woff2') format('woff2');
+    }
+
+    body {
+      background-color: #f1f1f1;
+    }
+
+    .center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: 3vw;
+    }
+    
+    .text-link {
+      font-family: 'PPMondwest-Regular';
+      font-size: 13vw;
+      text-decoration: none;
+      text-transform: uppercase;
+      line-height: 10.5vw;
+      top: 0;
+      margin-top: 0;
+      color: #9c9c9c;
+    }
+
+    .text-link:hover {
+        color: rgb(26, 26, 26);
+    }
+
+    .text-block {
+        top: 0;
+        margin-bottom: 7vw;
+    }
+
+    .text-block-2 {
+        top: 0;
+        margin-bottom: 10vw;
+    }
+
+    p {
+        margin: 0;
+        color: #9c9c9c;
+        font-family: 'ABCFavorit', sans-serif;
+        font-size: 1vw;
+        margin-top: -0.1vw;
+    }
+
+    .footer {
+        margin-left: 1vw;
+        margin-bottom: 1.5vw;
+        align-items: center;
+        text-align: center;
+    }
+
+  </style>
 </head>
 <body>
-    <a href="BezierkurvenVerknuuepfeInteraktiv/index.html">Link1</a>
-    <a href="BezierkurvenVerknuuepfen2/index.html">Link2</a>
-    <a href="BezierkurvenVerknuuepfen3D/index.html">Link3</a>
+  <div class="center">
+    <div class="text-block">
+      <a href="https://www.hslu.ch/de-ch/" class="text-link">Sprint 1 <br> (Jan)</a>
+    </div>
+    <div class="text-block">
+      <a href="#" class="text-link">Sprint 1 <br> (Anu)</a>
+    </div>
+    <div class="text-block">
+      <a href="#" class="text-link">Sprint 1 <br> (Nastia)</a>
+    </div>
+    <div class="text-block-2">
+      <a href="browser.html" class="text-link">Browser<br>Extension</a>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Colabor 2023</p>
+    <p>Hochschule Luzern</p>
+    <p>Jan Milczarek, Anastasia Sorokoumova & Anuschka Berger </p>
+  </div>
 </body>
 </html>
