@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Timer Extension",
+    "version": "1.0",
+    "permissions": ["alarms", "activeTab"],
+    "icons": {
+      "48": "Logo_20-20-20.png"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>","*://*/*"],
+        "js": ["p5.min.js", "functions.js", "kickoff.js"]
+       
+    }]
+  }
